@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:dividerHeight="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/lblNombreMecanicoUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Mecánico:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/lblNombreMecanicoRegistroUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE CLIENTE"
+        android:textSize="18dp"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/lblNombreMecanicoUpdate"/>
+
+    <TextView
+        android:id="@+id/lblCorreoMecanicoUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblNombreMecanicoRegistroUpdate"
+        />
+    <EditText
+        android:id="@+id/lblCorreoMecanicioRegistroUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CORREO@MECANICO.COM"
+        android:textSize="18dp"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:maxLines="1"
+        android:layout_below="@+id/lblCorreoMecanicoUpdate"
+        />
+
+
+    <TextView
+        android:id="@+id/lblTelefonoUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono :"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblCorreoMecanicioRegistroUpdate"/>
+
+    <EditText
+        android:id="@+id/lblTelefonoMecanicoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="099555444"
+        android:textSize="18dp"
+        android:inputType="number"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:maxLines="1"
+        android:layout_below="@+id/lblTelefonoUpdate"/>
+
+
+    <TextView
+        android:id="@+id/lblContrasenaUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblTelefonoMecanicoRegistro"/>
+    <EditText
+        android:id="@+id/lblContrasenaMecanicoRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="!contr@5en@"
+        android:textSize="18dp"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/lblContrasenaUpdate"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblContrasenaMecanicoRegistro"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtGuardarUpdateMecanico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         "
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtCancelarUpdateMecanico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

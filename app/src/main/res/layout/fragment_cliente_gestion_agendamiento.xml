@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fragmente">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/botton_navigation_cliente_agendamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/button_navigation_mantenimiento"
+            android:background="?android:attr/windowBackground"/>
+        <FrameLayout
+            android:id="@+id/fragment_continerAgendaMantenimiento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtIDclienteCita"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtIDAutoCita"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_notificacionesServicio"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        android:title="Servicio"/>
+    <item
+        android:id="@+id/nav_notificacionesPromociones"
+        android:icon="@drawable/ic_notificacion_cliente"
+        android:title="Promociones"/>
+
+
+</menu>

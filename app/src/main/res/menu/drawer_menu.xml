@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grup_administrador"
+        >
+        <item
+            android:id="@+id/nav_gestionclientes"
+            android:icon="@drawable/ic_cliente"
+            android:title="Gestion Cliente"
+
+            />
+        <item
+            android:id="@+id/nav_gestionmecanicos"
+            android:icon="@drawable/ic_mecanico"
+            android:title="Gestion Mecanico" />
+        <item
+            android:id="@+id/nav_gestionnotificaciones"
+            android:icon="@drawable/ic_notificaciones"
+            android:title="Gestion Notificaciones" />
+        <item
+            android:id="@+id/nav_gestionservicio"
+            android:icon="@drawable/ic_servicio"
+            android:title="Gestion Servicio" />
+
+        <item
+            android:id="@+id/nav_misReportesAdmin"
+            android:icon="@drawable/ic_lista_vehiculos"
+            android:title="Reportes">
+
+        </item>
+        <item
+            android:id="@+id/nav_gestioninsumos"
+            android:icon="@drawable/ic_cliente"
+            android:title="Cerrar Sesion" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grupo_cliente">
+        <item
+            android:id="@+id/nav_gestionAuto"
+            android:icon="@drawable/ic_gestionauto"
+            android:title="Gestion Auto"
+
+            />
+        <item
+            android:id="@+id/nav_agendaMantenimiento"
+            android:icon="@drawable/ic_agendarmantenimientos"
+            android:title="Agendar Mantenimiento"
+
+            />
+
+        <item
+            android:id="@+id/nav_misNotificaciones"
+            android:icon="@drawable/ic_misnotificaciones"
+            android:title="Mis Notificaciones">
+
+        </item>
+
+        <item
+            android:id="@+id/nav_misReportes"
+            android:icon="@drawable/ic_lista_vehiculos"
+            android:title="Mis Reportes">
+
+        </item>
+        <item
+            android:id="@+id/nav_miCuentaCliente"
+            android:icon="@drawable/ic_micuenta"
+            android:title="Mi Cuenta">
+
+
+        </item>
+        <item
+            android:id="@+id/nav_salirApp"
+            android:icon="@drawable/ic_salir"
+            android:title="Cerra Sesion"
+
+            />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grupo_mecanico">
+        <item
+            android:id="@+id/nav_historicos"
+            android:icon="@drawable/ic_historicos"
+            android:title="Historial Mantenimiento"
+
+            />
+        <item
+            android:id="@+id/nav_mantenimientosAgednados"
+            android:icon="@drawable/ic_agendarmantenimientos"
+            android:title="Mantenimientos Agendados"
+
+            />
+
+        <item
+            android:id="@+id/nav_miCuentaMecanico"
+            android:icon="@drawable/ic_micuenta"
+            android:title="Mi cuenta"
+
+            />
+        <item
+            android:id="@+id/nav_salirAppMecanico"
+            android:icon="@drawable/ic_salir"
+            android:title="Salir"/>
+    </group>
+
+</menu>

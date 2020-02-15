@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_resume"
+        android:icon="@drawable/ic_resumen_car"
+        android:title="Resumen"/>
+    <item
+        android:id="@+id/nav_listaAutos"
+        android:icon="@drawable/ic_lista_vehiculos"
+        android:title="Lista Vehiculos"/>
+
+    <item
+        android:id="@+id/nav_kilometrejes"
+        android:icon="@drawable/ic_kilometraje"
+        android:title="Kilometreajes"/>
+
+</menu>

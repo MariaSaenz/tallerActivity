@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_reportePDF"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="PDFReport"/>
+    <item
+        android:id="@+id/nav_reportEstadistic"
+        android:icon="@drawable/common_google_signin_btn_icon_light_focused"
+        android:title="Estadisticas"/>
+</menu>

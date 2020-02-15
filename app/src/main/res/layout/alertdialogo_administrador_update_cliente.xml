@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:dividerHeight="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Cliente:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:id="@+id/lblnombreupdate"
+        />
+
+    <EditText
+        android:id="@+id/lblNombreClienteGestionUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE CLIENTE"
+        android:textSize="18dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/lblnombreupdate" />
+
+    <TextView
+        android:id="@+id/lblcorreogestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblNombreClienteGestionUpdate"
+        />
+    <TextView
+        android:id="@+id/lblCorreoClienteGestionUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CORREO@CLIENTE.COM"
+        android:textSize="18dp"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/lblcorreogestion"
+        />
+    <TextView
+        android:id="@+id/lbltelefonogestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono :"
+        android:layout_marginLeft="5sp"
+
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblCorreoClienteGestionUpdate"/>
+    <EditText
+        android:id="@+id/lblTelefonoClienteGestionUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="099555444"
+        android:textSize="18dp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/lbltelefonogestion"/>
+
+    <TextView
+        android:id="@+id/lbldireciongestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblTelefonoClienteGestionUpdate"/>
+    <EditText
+        android:id="@+id/lblDireccionClienteGestionUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sector, Calle1 SN#### Calle2"
+        android:textSize="18dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/lbldireciongestion"/>
+    <TextView
+        android:id="@+id/contrasenagestionUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:layout_below="@+id/lblDireccionClienteGestionUpdate"/>
+
+    <EditText
+        android:id="@+id/lblContrasenaClienteGestionUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="!contr@5en@"
+        android:textSize="18dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:backgroundTint="@color/color_heder"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/contrasenagestionUpdate"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblContrasenaClienteGestionUpdate"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtGuardarUpdateCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         "
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtCancelarUpdateCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

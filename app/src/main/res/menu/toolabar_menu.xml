@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Buscar"
+        android:id="@+id/menu_buscar"
+        android:icon="@drawable/ic_buscar_toolbar"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView">
+
+    </item>
+    <item
+        android:id="@+id/spinnerToolbar"
+        android:title="ActionBar Spinner"
+        app:actionViewClass="android.widget.Spinner"
+        android:background="@android:color/transparent"
+        app:showAsAction="always"
+        />
+</menu>

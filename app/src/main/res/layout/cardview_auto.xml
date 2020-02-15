@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:dividerHeight="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp">
+
+        <TextView
+        android:id="@+id/txtMarcaAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="267dp"
+        android:text="Marca"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtPlacaAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMarcaAuto"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="272dp"
+            android:text="Placa"
+            android:textSize="18sp"
+            android:textColor="@color/color_heder"/>
+        <TextView
+            android:id="@+id/txtModeloAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_below="@+id/txtPlacaAuto"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="283dp"
+            android:text="Modelo"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/txtCilindrajeAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_below="@+id/txtModeloAuto"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="283dp"
+            android:text="Cilindraje"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txtCilindrajeAuto"
+            android:background="@color/colorPrimary"/>
+
+
+        <ImageView
+            android:id="@+id/icono_borrar_auto2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/ic_borrar"
+            android:layout_marginTop="20sp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

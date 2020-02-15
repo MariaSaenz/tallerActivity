@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "973883847731",
+    "firebase_url": "https://talleractivity.firebaseio.com",
+    "project_id": "talleractivity",
+    "storage_bucket": "talleractivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973883847731:android:ec9c3e4447c9676f0a1f46",
+        "android_client_info": {
+          "package_name": "my.jviracocha.talleractivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973883847731-5po1lth6ri8i00unvsspjtpoh9qman6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.jviracocha.talleractivity",
+            "certificate_hash": "995f9ea2a0e6e85d73fbfc0644d44d9a0484263a"
+          }
+        },
+        {
+          "client_id": "973883847731-9po6dun781i7k9idfag2lv78e11ggktn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQOCaJ5yH6fLmvjbM0h6Jp7etwdnyxB8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973883847731-9po6dun781i7k9idfag2lv78e11ggktn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

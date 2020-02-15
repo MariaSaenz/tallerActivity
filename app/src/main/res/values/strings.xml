@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TesisAutomotrizCM</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="ipWebService">http://18.217.156.145</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCELAR</string>
+
+    <string-array name="spinner_color">
+        <item>Blanco</item>
+        <item>Rojo</item>
+        <item>Gris</item>
+        <item>Amarillo</item>
+        <item>Negro</item>
+
+    </string-array>
+
+    <string-array name="spinner_horarios" >
+        <item>8:00</item>
+        <item>8:40</item>
+        <item>9:20</item>
+        <item>10:00</item>
+        <item>10:40</item>
+        <item>11:20</item>
+        <item>13:00</item>
+        <item>13:40</item>
+        <item>14:20</item>
+        <item>15:00</item>
+        <item>15:40</item>
+        <item>16:20</item>
+    </string-array>
+
+
+    <string-array name="estados_cita">
+        <item>PENDING</item>
+        <item>CERRADO</item>
+        <item>PROGRESS</item>
+    </string-array>
+
+</resources>

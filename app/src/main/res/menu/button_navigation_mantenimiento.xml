@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_AgendarMantenimiento"
+        android:icon="@drawable/ic_agendamiento"
+        android:title="Agendamiento"/>
+    <item
+        android:id="@+id/nav_listaMantenimientosAgendados"
+        android:icon="@drawable/ic_lista_vehiculos"
+        android:title="Lista Agendamiento"/>
+
+
+</menu>

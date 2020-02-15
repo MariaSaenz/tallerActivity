@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_fragmente">
+
+    <TextView
+        android:id="@+id/lblfechaInicioReportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="267dp"
+        android:text="FECHA INICIO:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/txtfechaInicioReportes"
+        android:hint="yyy-mm-dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblfechaInicioReportes"
+        android:textColor="@android:color/background_dark"
+        android:maxLines="1"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/lblfechaFinReportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="267dp"
+        android:text="FECHA FIN:"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/txtfechaInicioReportes"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtfechaFinReportes"
+        android:hint="yyy-mm-dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblfechaFinReportes"
+        android:textColor="@android:color/background_dark"
+        android:maxLines="1"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/lblMecanicoReportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="267dp"
+        android:text="MECANICO:"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/txtfechaFinReportes"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtMecanicosReportes"
+        android:hint="Mecanico "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblMecanicoReportes"
+        android:textColor="@android:color/background_dark"
+        android:maxLines="1"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/lblCitaReportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="267dp"
+        android:text="ESTADO CITA:"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/txtfechaFinReportes"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtCitaReportes"
+        android:hint="ESTADO CITA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblCitaReportes"
+        android:textColor="@android:color/background_dark"
+        android:maxLines="1"
+        android:textSize="18sp"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/grupoFabReportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="56dp"
+        app:fab_addButtonColorNormal="@color/color_heder"
+        app:fab_addButtonColorPressed="@color/color_tolbar"
+        app:fab_labelStyle="@style/etiqueta">
+
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/idFabGenerarReporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_icon="@android:drawable/ic_menu_rotate"
+            app:fab_size="normal"
+            app:fab_title="Generar Reporte">
+
+        </com.getbase.floatingactionbutton.AddFloatingActionButton>
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/idFabSalirReporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_icon="@android:drawable/ic_input_add"
+            app:fab_size="normal"
+            app:fab_title="Salir">
+
+        </com.getbase.floatingactionbutton.AddFloatingActionButton>
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</RelativeLayout>
